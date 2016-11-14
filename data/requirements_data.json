@@ -1,0 +1,66 @@
+{
+  "order": {
+      "orderLeader": "Angie",
+      "logisticsType": 2,
+      "accountId":"jvtest",
+      "memberId":"4l77ouxg",
+      "contactWay": "13123466738",
+      "invoiceType": 3,
+      "paymentType": 2,
+      "miscellaneous": "",
+      "scheduling": "",
+      "orderType": 0,
+      "status": 1,
+      "creator": "test123456",
+      "createdTime": "CurrentTime",
+      "updater": "test123456",
+      "updatedTime": "CurrentTime",
+      "sumWeight": 23220,
+      "pickUpGoodsTime": "CurrentTime",
+      "deliveryTime": "CurrentTime",
+      "logisticsModel": 1,
+      "otherInfo": "这是一个测试订单",
+      "completePeopleTime": "CurrentTime",
+      "isAssign": 1
+    },
+    "goods": [
+      {
+        "categoryId": 126200012,
+        "weight": 23220,
+        "status": 1,
+        "createdTime": "CurrentTime",
+        "updater": "test123456",
+        "updatedTime": "CurrentTime",
+        "remark": ""
+      }
+    ],
+    "address": [
+      {
+        "takeUnload": 1,
+        "province": "北京",
+        "city": "北京市",
+        "area": "西城区",
+        "address": "1111111111",
+        "remark": "",
+        "status": 1,
+        "createdTime": "CurrentTime",
+        "updater": "test123456",
+        "updatedTime": "CurrentTime"
+      },
+      {
+        "takeUnload": 2,
+        "province": "吉林省",
+        "city": "延边朝鲜族自治州",
+        "area": "珲春市",
+        "address": "222222222",
+        "remark": "",
+        "status": 1,
+        "createdTime": "CurrentTime",
+        "updater": "test123456",
+        "updatedTime": "CurrentTime"
+      }
+    ],
+    "driver": [
+
+    ]
+}

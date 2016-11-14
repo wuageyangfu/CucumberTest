@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: AppTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 22.111 sec <<< FAILURE!
+Then 目前至少有一个"可修改报价"的订单(Scenario: 修改报价正常流程)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: 没有可修改报价订单！
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at wuage.features.step_definitions.TestSteps.verfiyMatchOrderAppears(TestSteps.java:478)
+	at ?.Then 目前至少有一个"可修改报价"的订单(quotate.feature:83)
+
+Scenario: 修改报价正常流程  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: 没有可修改报价订单！
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at wuage.features.step_definitions.TestSteps.verfiyMatchOrderAppears(TestSteps.java:478)
+	at ?.Then 目前至少有一个"可修改报价"的订单(quotate.feature:83)
+
