@@ -21,6 +21,7 @@ public class Hooks {
 
 	@Before
 	public void setUp(){
+        System.out.println("Set up..");
         System.setProperty("javax.net.ssl.trustStore", "certification//jssecacerts");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
